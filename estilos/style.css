@@ -31,5 +31,46 @@ section#telefone {
     width: 311px;
     transform: translate(-50%, -50%);
     background: url('../imagens/frame-iphone.png') no-repeat;
+}
 
+div#tecla-home {
+    position: absolute;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    bottom: 18px;
+    right: 130px;
+}
+
+div#tecla-home:active {
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+}
+
+iframe#tela {
+    position: relative;
+    top: 82px;
+    left: 23px;
+
+    width: 267px;
+    height: 470px;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.402);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.608);
+    transition: transform .5s, border 1s;
 }

@@ -1,0 +1,13 @@
+Para a borda fazer parte do objeto (na config de :hover para uma borda em um translate, por exemplo), você precisa usar 'box-sizing: border-box;' na config do objeto no css. Caso não faça isso, os outros objetos proximos se mexem ao passar o mouse para surgir a borda.
+Ex: 
+section img {
+    box-sizing:border-box;
+}
+section img:hover {
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+}
+
+Você pode usar transition: border 1s; para um slow motion de 1 segundo na criação da borda (como no exemplo acima) ao passar o mouse em cima do objeto, e no transform também, transition: transform 0.5s, para um slow motion de meio segundo na movimentação do objeto no translate.
+Assim: 
+transition: transform 0.5s, border 1s;
