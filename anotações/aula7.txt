@@ -1,7 +1,13 @@
 Para juntar prints de celular em uma unica imagem em forma de ripa: 
 
-Com o GIMP, abra todos os prints tirados anteriormente, no primeiro print, selecione imagem > tamanho da tela de pintura, na altura coloque um valor BEM GRANDE (10.000 por exemplo) e nas duas opções logo abaixo deixe em zero. Agora voce terá uma imagem gigante.
+Com o GIMP, abra todos os prints tirados anteriormente, no primeiro print, selecione 
+imagem > tamanho da tela de pintura, na altura coloque um valor BEM GRANDE (10.000 por 
+exemplo) e nas duas opções logo abaixo deixe em zero. Agora voce terá uma imagem gigante.
 
-Vá no segundo print, selecione a opção de selecionar retangular, selcione a parte que vai querer cortar e dar ctrl+c, vá na imagem gigante criada e dar ctrl+v, selecione a opção de mover, e encaixe certinho logo abaixo do primeiro print, e assim, faça para todos os prints.
+Vá no segundo print, selecione a opção de selecionar retangular, selcione a parte que vai 
+querer cortar e dar ctrl+c, vá na imagem gigante criada e dar ctrl+v, selecione a opção 
+de mover, e encaixe certinho logo abaixo do primeiro print, e assim, faça para todos os 
+prints.
 
-Depois corte a parte que sobrou com a opção de corte, se a imagem ficar muito pesada, rendimencione para um tamanho menor e salve como .jpeg.
+Depois corte a parte que sobrou com a opção de corte, se a imagem ficar muito pesada, 
+rendimencione para um tamanho menor e salve como .jpeg.
